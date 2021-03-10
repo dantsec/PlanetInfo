@@ -1,7 +1,7 @@
 # PlanetInfo
 
 ### Planets / moons information display
-This is a simple program to consult information about a planet or moon is in our solar system.
+This is a simple program made in python3 to consult information about a planet or moon is in our solar system.
 
 > downloading:
 ```bash
@@ -16,8 +16,8 @@ pip install -r requirements.txt
 > how to use:
 ```python
 #using
-python main.py [-h] [-p] [PLANET_NAME]
+python3 main.py [-h] [-p] [PLANET_NAME]
 
 example:
-python main.py -p earth
+python3 main.py -p earth
 ```
