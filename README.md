@@ -16,7 +16,7 @@ pip install -r requirements.txt
 > how to use:
 ```python
 #using
-python main.py -p [PLANET_NAME]
+python main.py [-h] [-p] [PLANET_NAME]
 
 example:
 python main.py -p earth
