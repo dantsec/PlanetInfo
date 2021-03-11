@@ -26,11 +26,3 @@ class Astronomy():
       else:
         print(key, ':', value)
         print(" ") 
-
-'''
-args = sargs()
-Astronomy = Astronomy(args)
-url  = Astronomy.planet_info()
-code = Astronomy.request(url)
-Astronomy.filter(code)
-'''
