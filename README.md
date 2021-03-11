@@ -1,5 +1,7 @@
 # PlanetInfo
 
+## For Linux:
+
 ### Planets / moons information display
 This is a simple program made in python3 to consult information about a planet or moon is in our solar system.
 
