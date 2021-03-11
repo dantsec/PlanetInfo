@@ -13,13 +13,3 @@ def sargs():
   args = parser.parse_args()
 
   return args 
-
-def request(url):
-  import urllib3
-  import json
-  urllib3.disable_warnings()
-  http = urllib3.PoolManager()
-  r = http.request("GET", url)
-  code = json.loads(r.data.decode('utf-8'))
-  
-  return code
