@@ -10,6 +10,6 @@ def sargs():
     help="Planet or star for consultation."
     )
   
-  args = parser.parse_args()
+  parser.parse_args()
 
   return args 
