@@ -4,7 +4,7 @@
 This is a simple program made in python3 to consult information about a planet or moon is in our solar system.
 
 ## How to install:
-- Clone this repository: ```https://github.com/Dantalion-dev/PlanetInfo.git```
+- Clone this repository: ```git https://github.com/Dantalion-dev/PlanetInfo.git```
 
 - Install python3 
   - Linux
