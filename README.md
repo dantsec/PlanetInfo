@@ -3,6 +3,12 @@
 ### Planets / moons information display
 This is a simple program made in python3 to consult information about a planet or moon is in our solar system.
 
+## Version 1.1
+
+- [x] Save data on file
+- [x] Random curiosity about the solar system (Fun)
+- [x] Code adjustments
+
 ## How to install:
 - Clone this repository: ```git clone https://github.com/Dantalion-dev/PlanetInfo.git```
 
@@ -39,5 +45,6 @@ python3 main.py -p earth
 python3 main.py -c
 
 ```
+
 ## License
 This project is under the [MIT License](LICENSE).
