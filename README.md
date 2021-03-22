@@ -20,9 +20,6 @@
   <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
-
-
-  
 </p>
 
 ## 🚀 Technologies 
@@ -40,6 +37,8 @@ This is a project that I developed for my physics class, which basically consist
 
 ## ♟️ Installation
 - Clone this repository: ```git clone https://github.com/Dantalion-dev/PlanetInfo.git```
+
+- Enter the folder: ```cd PlanetInfo/```
 
 - Install python3 
   - Linux
