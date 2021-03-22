@@ -42,7 +42,7 @@ This is a project that I developed for my physics class, which basically consist
 
 - Install python3 
   - Linux
-    - ```apt-get install python3```
+    - ```sudo apt-get install python3```
     - ```chmod +x *```
     - ```python -m pip install -r requirements.txt```
     - Finished!
