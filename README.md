@@ -34,9 +34,9 @@ This project was developed with the following technologies:
 This is a project that I developed for my physics class, which basically consisted of you studying a planet and showing information about it, I went further, I added some somewhat different features, like asking for some curiosity about our solar system and saving the data in a file
 
 ## ✨ Features
-- Code review
-- Save data on file
-- Random curiosity about the solar system (Fun)
+- [x] Code review
+- [x] Save data on file
+- [x] Random curiosity about the solar system (Fun)
 
 ## ♟️ Installation
 - Clone this repository: ```git clone https://github.com/Dantalion-dev/PlanetInfo.git```
