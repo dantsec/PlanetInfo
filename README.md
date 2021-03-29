@@ -30,7 +30,7 @@ This project was developed with the following technologies:
 
 <h2 align="center">💻 Project</h2>
 
-This is a project that I developed for my physics class, which basically consisted of you studying a planet and showing information about it, I went further, I added some somewhat different features, like asking for some curiosity about our solar system and saving the data in a file
+This is a project that I developed for my physics class, which basically consisted of you studying a planet and showing information about it, I went further, I added some somewhat different features, like asking for some curiosity about our solar system and saving the data in a file.
 
 <h2 align="center">✨ Features</h2>
 
