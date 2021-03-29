@@ -13,29 +13,33 @@
 </p>
 
 <p align="center">
-  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#%EF%B8%8F-installation">Installing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+  <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+  <a href="#%EF%B8%8F-installation">Installing</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+  <a href="#-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
+  <a href="#-contributing">Contributing</a>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>
 </p>
 
-## 🚀 Technologies 
+<h2 align="center">🚀 Technologies</h2>
+
 This project was developed with the following technologies:
 
 - Python
 
-## 💻 Project
+<h2 align="center">💻 Project</h2>
+
 This is a project that I developed for my physics class, which basically consisted of you studying a planet and showing information about it, I went further, I added some somewhat different features, like asking for some curiosity about our solar system and saving the data in a file
 
-## ✨ Features
+<h2 align="center">✨ Features</h2>
+
 - [x] Code review
 - [x] Save data on file
 - [x] Random curiosity about the solar system (Fun)
 
-## ♟️ Installation
+<h2 align="center">♟️ Installation</h2>
+
 - Clone this repository: ```git clone https://github.com/Dantalion-dev/PlanetInfo.git```
 
 - Enter the folder: ```cd PlanetInfo/```
@@ -52,7 +56,8 @@ This is a project that I developed for my physics class, which basically consist
     - ```python3 -m pip install -r requirements.txt```
     - Finished!
 
-## 🍀 How to use
+<h2 align="center">🍀 How to use</h2>
+
 ```python
 #using
 python3 main.py [-h HELP] [-c CURIOSITY] [-f FILE] [-p PLANET_NAME]
@@ -73,7 +78,7 @@ python3 main.py -c
 
 ```
 
-## 🔨 Contributing
+<h2 align="center">🔨 Contributing</h2>
 
 How can I contribute to the project?
 
@@ -86,6 +91,6 @@ How can I contribute to the project?
 6. Open a pull request.
 ```
 
-## 📝 license
+<h2 align="center">📝 license</h2>
 
 This project is under the [MIT License](LICENSE).
