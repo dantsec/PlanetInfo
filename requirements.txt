@@ -1,0 +1,4 @@
+urllib3>=1.26.2
+argparse>=1.4.0
+datetime>=4.3
+rich>=10.6.0
