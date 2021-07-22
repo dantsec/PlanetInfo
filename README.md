@@ -58,25 +58,7 @@ This is a project that I developed for my physics class, which basically consist
 
 <h2 align="center">🍀 How to use</h2>
 
-```python
-#using
-python3 main.py [-h HELP] [-c CURIOSITY] [-f FILE] [-p PLANET_NAME]
-
-examples:
-
-# search for planet earth + curiosity + save the exit in a file
-python3 main.py -c -p earth -f file.txt
-
-# search for planet earth + save the output in a file
-python3 main.py -p earth -f file.txt
-
-# search only for planet earth
-python3 main.py -p earth
-
-# brings a random curiosity
-python3 main.py -c
-
-```
+![](https://media.discordapp.net/attachments/732350657243381810/867612476657238016/unknown.png?width=941&height=484)
 
 <h2 align="center">🔨 Contributing</h2>
 
