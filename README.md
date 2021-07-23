@@ -58,7 +58,7 @@ This is a project that I developed for my physics class, which basically consist
 
 <h2 align="center">🍀 How to use</h2>
 
-![](https://media.discordapp.net/attachments/732350657243381810/867612476657238016/unknown.png?width=941&height=484)
+![](https://cdn.discordapp.com/attachments/788026328749310005/868187128671133777/HHUtNjs.png)
 
 <h2 align="center">🔨 Contributing</h2>
 
