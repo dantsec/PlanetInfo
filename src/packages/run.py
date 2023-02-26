@@ -4,16 +4,17 @@ class App:
     """Main function to run the program
     """
     from src.packages.astronomy import Astronomy
+    from main import typeAnim
 
     if not args.curiosity and not args.planet:
-      print("Use -h, you must have been confused...")
+      typeAnim("Use -h, you must have been confused...")
       exit(1)
 
     if args.curiosity and not args.planet:
-      print("\nCURIOSITY:", Astronomy.curiosity())
+      typeAnim(f"\nCURIOSITY: {Astronomy.curiosity()}")
       exit(0)
 
-    print("[-] STARTING, wait a few seconds...\n\n")
+    typeAnim("[-] STARTING, wait a few seconds...\n\n")
 
     astro = Astronomy(args)
     code  = astro.request()
@@ -25,10 +26,10 @@ class App:
       astro.write_file(str(data))
 
     if args.curiosity:
-      print("\nCURIOSITY:", Astronomy.curiosity())
+      typeAnim(f"\nCURIOSITY: {Astronomy.curiosity()}")
 
-    print("*"*50)
-    print("\n[+] Thanks for using!")
+    typeAnim("*"*50)
+    typeAnim("\n[+] Thanks for using!")
 
 
   @staticmethod
@@ -36,6 +37,7 @@ class App:
     """This function use main() and count the time
     """
     from src.interface.ui import clear, banner
+    from main import typeAnim
     import timeit
 
     ini = timeit.default_timer()
@@ -44,5 +46,5 @@ class App:
     App.main(args)
     fin = timeit.default_timer()
     
-    print("\n[+] RUNTIME: %f seconds\n" % (fin - ini))
-    print("*"*50)
+    typeAnim("\n[+] RUNTIME: %f seconds\n" % (fin - ini))
+    typeAnim("*"*50)
