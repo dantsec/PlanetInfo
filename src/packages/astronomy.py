@@ -19,7 +19,10 @@ class Astronomy():
     urllib3.disable_warnings()
     http = urllib3.PoolManager()
     r = http.request("GET", f'https://api.le-systeme-solaire.net/rest/bodies/{self.args.planet}')
-    code = json.loads(r.data.decode('utf-8'))
+    if r.status != 200:
+      code = {"Error": "The planet cannot be found!"}
+    else:
+      code = json.loads(r.data.decode('utf-8'))
     return code
 
 
@@ -27,13 +30,15 @@ class Astronomy():
   def _filter(code) -> list:
     """Filter the output of the program
     """
+    from main import typeAnim
+
     data = []
     for key, value in code.items():
       if value == '':
         pass
       else:
-        print('[*]', key, ':', value)
-        print(" ")
+        typeAnim(f'[*] {key} : {[val["moon"] for val in value] if key == "moons" and value is not None else value}')
+        typeAnim("\n\n", speed=5)
         data.append(f"{key} : {value}")
     return data 
 
